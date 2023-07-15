@@ -1,0 +1,53 @@
+/*cascade style sheet-css
+there are selectors 
+'*'-denotes the entire elements in html file
+
+
+
+*/
+
+/*entire selectors '*'*/
+.head{
+    color:orangered
+}
+
+*{
+    color: darkred;
+   
+}
+
+
+    
+/*type selectors like h2 ,p,...*/
+h2,p{
+    font-family: 'Rubik', sans-serif;
+     color:blue;
+}
+/*id and class given to the element can be selected by id='#',class='.'*/
+
+.mytable td,.mytable th{
+    /*for only the td inside the my table  and th in my table */
+    color:lavender;
+}
+/*only for the first child */
+.list>li{
+ color:brown;
+}
+.anchor:hover{
+color:aqua;
+}
+.anchor:active{
+    color:blueviolet;
+
+}
+.anchor:visited{
+    color:green;
+}
+.pseudoele::before{
+    content: "this is";
+
+}
+.pseudoele::after{
+    content: "element";
+
+}
